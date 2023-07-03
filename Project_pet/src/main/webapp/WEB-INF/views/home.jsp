@@ -86,7 +86,6 @@
           <p>소식 요약</p>
         </li>
         <button onclick="showHiddenElement()" class="more-button">더보기</button>
-
       </div>
       <div class="bottom-news">
       <!-- 추가 소식 작성 -->
