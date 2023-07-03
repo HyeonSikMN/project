@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
 <html>
 <head>
 	<title>Petopia</title>
@@ -54,39 +53,39 @@
   <section class="latest-news">
     <h3>최신 소식</h3>
     <ul class="news-wrapper">
-      <div class="top-news">
-        <li class="news">
+      <li class="top-news">
+        <div class="news">
           <h4>소식 제목 1</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-23</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 2</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 3</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 4</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 5</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
+        </div>
         <button onclick="showHiddenElement()" class="more-button">더보기</button>
-      </div>
+      </li>
       <div class="bottom-news">
       <!-- 추가 소식 작성 -->
         <li class="news">
@@ -153,7 +152,7 @@
           <img src="pet/resources/image/html5_logo.png" alt="배너 이미지 2">
         </div>
         <div class="veri-banner">
-          <img src="pet/resources/image/Logo.jpg" alt-="세로 배너 이미지">
+          <img src="pet/resources/image/Logo.jpg" alt="세로 배너 이미지">
         </div>
       </aside>
     </div>
@@ -165,9 +164,9 @@
     <h3>Petopia</h3>
     <p>(주) Petopia | 사업자등록번호  432-86-00569 | 대표이사 : 박지영 | 개인정보관리책임자 : 이영웅<br>
 				 서울특별시 마포구 노고산동 106-5 <br>
-	Tel : 010.8617.7436 월-금 (10:00 - 19:00) Email : web&app@korea.com <br>
-
-© 2023 Petopia Inc. All Rights Reserved.</p>
+		Tel : 010.8617.7436 월-금 (10:00 - 19:00) Email : web&app@korea.com<br>
+		© 2023 Petopia Inc. All Rights Reserved.
+	</p>
   </section>
   </footer>
 
