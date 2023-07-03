@@ -13,7 +13,7 @@ public class HomeController {
 	@Autowired	//자동주입
 	HttpServletRequest request;
 	
-	public static final String PATH = "/WEB-INF/views/visit/";
+	public static final String PATH = "/WEB-INF/views/home/";
 	
 	HomeDAO home_dao;
 	public void setHome_dao(HomeDAO home_dao) {

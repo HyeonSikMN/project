@@ -22,11 +22,11 @@
 <!-- 상단 네비게이션 바 -->
   <nav>
     <ul class="menu">
-      <li><img src="pet/resources/image/Logo.jpg" width="80" height="80" onclick="window.location.href='home.html'"></li>
-      <li><a href="board.html">게시판</a></li>
-      <li><a href="shopping.html">쇼핑몰</a></li>
-      <li><a href="join.html">회원 가입</a></li>
-      <li><a href="login.html">로그인</a></li>
+      <li><img src="pet/resources/image/Logo.jpg" width="80" height="80" onclick="/WEB-INF/views/home.jsp"></li>
+      <li><a href="#">게시판</a></li>
+      <li><a href="#">쇼핑몰</a></li>
+      <li><a href="#">회원 가입</a></li>
+      <li><a href="#">로그인</a></li>
     </ul>
     <div class="search">
       <!-- 검색 기능 구현 -->
@@ -86,41 +86,41 @@
         </div>
         <button onclick="showHiddenElement()" class="more-button">더보기</button>
       </li>
-      <div class="bottom-news">
+      <li class="bottom-news">
       <!-- 추가 소식 작성 -->
-        <li class="news">
+        <div class="news">
           <h4>소식 제목 6</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 7</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 8</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 9</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
-        <li class="news">
+        </div>
+        <div class="news">
           <h4>소식 제목 10</h4>
           <img src="pet/resources/image/Logo.jpg" width="100" height="100">
           <p>작성일: 2023-06-22</p>
           <p>소식 요약</p>
-        </li>
+        </div>
         
         <button onclick="returnNone()" class="close-button">닫기</button>
-      </div>
+      </li>
     </ul>
   </section>
 
